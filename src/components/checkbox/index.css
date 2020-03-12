@@ -1,0 +1,41 @@
+.radius-checkbox {
+  line-height: 40rpx;
+}
+.radius-checkbox-input {
+  border-radius: 50%;
+  width: 36rpx;
+  height: 36rpx;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(192, 196, 204, 1);
+  cursor: default;
+  display: inline-block;
+  float: left;
+  margin-right: 20rpx;
+}
+
+.radius-checkbox-input-checked {
+  border-color: transparent;
+  background: #1890ff;
+  position: relative;
+}
+
+.radius-checkbox-input-checked::before {
+  position: absolute;
+  left: 11rpx;
+  top: 4rpx;
+  content: '';
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 10rpx;
+  height: 19rpx;
+  background: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* -webkit-transform: rotate(45deg) translate(50%, -50%) scale(1); */
+}
+
+.radius-checkbox-title {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: rgba(48, 49, 51, 1);
+}

@@ -1,0 +1,26 @@
+{
+    "pages": [],
+    "subpackages": [],
+    "window": {
+        "backgroundColor": "#FFF",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#333333",
+        "selectedColor": "#1890FF",
+        "borderStyle": "white",
+        "backgroundColor": "#FFF",
+        "list": []
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true,
+    "navigateToMiniProgramAppIdList": [
+        ""
+    ],
+    "sitemapLocation": "sitemap.json"
+}

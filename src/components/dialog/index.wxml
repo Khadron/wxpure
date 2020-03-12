@@ -1,0 +1,11 @@
+<i-modal i-modal-main="custom-modal-main" i-modal-body="custom-modal-body" title="{{ title }}" visible="{{ visible }}" show-ok="{{false}}" show-cancel="{{false}}" bindmask="clickShade">
+    <view class="custom-model-content">
+        <slot name="content"></slot>
+    </view>
+    <view class="custom-model-model-foot">
+        <button class="custom-button custom-confirm-button" bind:tap="handleClick">确定</button>
+        <button wx:if="{{showCancel}}" class="custom-button custom-cancel-button" bind:tap="handleCancel">
+            取消
+        </button>
+    </view>
+</i-modal>

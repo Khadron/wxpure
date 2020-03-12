@@ -1,0 +1,6 @@
+<view class="radius-checkbox" style="{{'width:'+size.w+'rpx;height:'+size.h+'rpx;'}}">
+    <label>
+        <view class="radius-checkbox-input my-class {{ checked?'radius-checkbox-input-checked':''}}" style="{{ checked ? 'background-color:'+color:'' }}" bindtap="checkboxChange"></view>
+        <view class="radius-checkbox-title">{{ text }}</view>
+    </label>
+</view>
